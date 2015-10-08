@@ -4,6 +4,7 @@
 class Calculator 
 
 
+
   attr_accessor :num_1
   attr_accessor :num_2
 

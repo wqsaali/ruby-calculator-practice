@@ -4,6 +4,10 @@
 class Calculator 
 
 
+  attr_accessor :num_1
+  attr_accessor :num_2
+
+
 #declaring Constructor 
   
   def initialize(n1=0,n2=0)

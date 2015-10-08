@@ -16,7 +16,7 @@ end
 # Main Calculator Working 
 # Step 1 --> Objecting Calculator
 
-cal = new Calculator
+cal = Calculator.new
 
 # Creating Local Variables
 

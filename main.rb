@@ -67,13 +67,3 @@ cal.division()
 cal.multiplication()
 cal.display
 
-
-#this is my program
-
-
-
-=begin
-  
-rescue s => e
- dasdasdasd dasdasdas
-=end

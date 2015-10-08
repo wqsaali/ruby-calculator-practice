@@ -12,6 +12,9 @@ class Calculator
 def add
     @num_1+@num_2
   end
+  def sub
+    @num_1-@num_2
+  end
 end
 
 

@@ -25,9 +25,9 @@ number_two = 0
 
 # Step 3 --> Getting Values From User
 
-print "Please Enter Your First Digit : "
+print "Please Enter Your First Number : "
 number_one = gets.to_i
-print "\nPlease Enter Your Second Digit : "
+print "\nPlease Enter Your Second Number : "
 number_two = gets.to_i
 
 # Step 4 --> Setting Values of instance variables 

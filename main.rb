@@ -1,4 +1,3 @@
-# Declaring Shebang
 #! usr/bin/ruby -w
 
 
@@ -33,7 +32,8 @@ def add
     @num_1-@num_2
   end
   def display
-    
+
+
     puts "Addition : #{add()}"
     puts "subtraction : #{sub()}"
     puts "multiplication : #{multiplication()}"

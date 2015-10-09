@@ -22,6 +22,16 @@ class Calculator
     @num_1/@num_2
   end
 
+  #Display 
+
+  def display
+    
+    puts "Addition : #{add()}"
+    puts "Addition : #{sub()}"
+    puts "Addition : #{multiplication()}"
+    puts "Addition : #{division()}"
+  end
+
 end
 
 

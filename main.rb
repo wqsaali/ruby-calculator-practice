@@ -17,3 +17,21 @@ end
 # Step 1 --> Objecting Calculator
 
 cal = new Calculator
+
+# Creating Local Variables
+
+number_one = 0
+number_two = 0
+
+# Step 3 --> Getting Values From User
+
+print "Please Enter Your First Digit : "
+number_one = gets.to_i
+print "\nPlease Enter Your Second Digit : "
+number_two = gets.to_i
+
+# Step 4 --> Setting Values of instance variables 
+
+cal.num_1 = number_one
+cal.num_2 = number_two
+

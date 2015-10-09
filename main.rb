@@ -23,13 +23,22 @@ class Calculator
     @num_1/@num_2
   end
 
+#add fucntion 
+def add
+    @num_1+@num_2
+  end
+  
+  #subtraction function
+  def sub
+    @num_1-@num_2
+  end
 end
 
 
 # Main Calculator Working 
 # Step 1 --> Objecting Calculator
 
-cal = new Calculator
+cal = Calculator.new
 
 # Creating Local Variables
 
@@ -38,9 +47,9 @@ number_two = 0
 
 # Step 3 --> Getting Values From User
 
-print "Please Enter Your First Digit : "
+print "Please Enter Your First Number : "
 number_one = gets.to_i
-print "\nPlease Enter Your Second Digit : "
+print "\nPlease Enter Your Second Number : "
 number_two = gets.to_i
 
 # Step 4 --> Setting Values of instance variables 

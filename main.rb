@@ -1,4 +1,3 @@
-# Declaring Shebang
 #! usr/bin/ruby -w
 
 
@@ -32,13 +31,19 @@ def add
   def sub
     @num_1-@num_2
   end
+  def display
+    puts "Addition : #{add()}"
+    puts "subtraction : #{sub()}"
+    puts "multiplication : #{multiplication()}"
+    puts "Division : #{division()}"
+  end
 end
 
 
 # Main Calculator Working 
 # Step 1 --> Objecting Calculator
 
-cal = Calculator.new
+
 
 # Creating Local Variables
 
@@ -53,9 +58,9 @@ print "\nPlease Enter Your Second Number : "
 number_two = gets.to_i
 
 # Step 4 --> Setting Values of instance variables 
-
-cal.num_1 = number_one
-cal.num_2 = number_two
-
-
-
+cal = Calculator.new(number_one,number_two)
+cal.add()
+cal.sub()
+cal.division()
+cal.multiplication()
+cal.display

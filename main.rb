@@ -38,9 +38,9 @@ cal.num_2 = number_two
 # Step 5 --> Calling Methods for different calculations
 
 puts "The Addition of Two Numbers : #{cal.add}"
-puts "The Addition of Two Numbers : #{cal.sub}"
-puts "The Addition of Two Numbers : #{cal.multiplication}"
-puts "The Addition of Two Numbers : #{cal.division}"
+puts "The Subtraction of Two Numbers : #{cal.sub}"
+puts "The Multiplication of Two Numbers : #{cal.multiplication}"
+puts "The Division of Two Numbers : #{cal.division}"
 
 
 
